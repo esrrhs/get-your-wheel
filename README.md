@@ -22,3 +22,7 @@ C++轮子速查手册，无需重复发明轮子
 ### 1.3.1、支持并发 
 * 并发bit map，固定大小：[ConcurrentBitSet.h](https://github.com/facebook/folly/blob/main/folly/ConcurrentBitSet.h)
 * 
+
+# 2、模板元编程
+## 2.1、数学类
+* 计算max、min、log2、pow等：[ConstexprMath.h](https://github.com/facebook/folly/blob/main/folly/ConstexprMath.h)

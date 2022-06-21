@@ -26,3 +26,9 @@ C++轮子速查手册，无需重复发明轮子
 # 2、模板元编程
 ## 2.1、数学类
 * 计算max、min、log2、pow等：[ConstexprMath.h](https://github.com/facebook/folly/blob/main/folly/ConstexprMath.h)
+
+
+# 3、硬件相关
+## 3.1、CPU
+* 获取cpu信息：[CpuId.h](https://github.com/facebook/folly/blob/main/folly/CpuId.h)
+* 

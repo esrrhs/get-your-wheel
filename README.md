@@ -25,6 +25,10 @@ C++轮子速查手册，无需重复发明轮子
 * 并发bit map，固定大小：[ConcurrentBitSet.h](https://github.com/facebook/folly/blob/main/folly/ConcurrentBitSet.h)
 * 
 
+## 1.4、数组类容器
+### 1.4.1、支持并发 
+### 1.4.2、不支持并发 
+* 替换std::vector，针对就地重新分配（in-place reallocation）和jemalloc有优化：[FBVector.h](https://github.com/facebook/folly/blob/main/folly/FBVector.h)
 
 # 2、模板元编程
 ## 2.1、数学类

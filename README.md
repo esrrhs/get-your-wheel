@@ -33,7 +33,11 @@ C++轮子速查手册，无需重复发明轮子
 * 获取cpu信息：[CpuId.h](https://github.com/facebook/folly/blob/main/folly/CpuId.h)
 * 
 
-# 4、指针相关
-## 4.1、类型管理
+# 4、数据结构
+## 4.1、指针相关
+### 4.1.1、类型管理
 * 可以存放多种类型的指针：[DiscriminatedPtr.h](https://github.com/facebook/folly/blob/main/folly/DiscriminatedPtr.h)
-* 
+
+## 4.2、动态类型
+* 运行时动态类型，可存放int、string、vector等：[dynamic.h](https://github.com/facebook/folly/blob/main/folly/dynamic.h)
+

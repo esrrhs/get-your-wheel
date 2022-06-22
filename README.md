@@ -1,10 +1,12 @@
 # Get-Your-Wheel
 C++轮子速查手册，无需重复发明轮子
 
+
 # 0、原则
 * 从知名C++库收集轮子
 * 与STD标准库相似的不收录
 * 应用面太小的不收录
+
 
 # 1、容器
 ## 1.1、hash类容器
@@ -23,6 +25,7 @@ C++轮子速查手册，无需重复发明轮子
 * 并发bit map，固定大小：[ConcurrentBitSet.h](https://github.com/facebook/folly/blob/main/folly/ConcurrentBitSet.h)
 * 
 
+
 # 2、模板元编程
 ## 2.1、数学类
 * 计算max、min、log2、pow等：[ConstexprMath.h](https://github.com/facebook/folly/blob/main/folly/ConstexprMath.h)
@@ -32,6 +35,7 @@ C++轮子速查手册，无需重复发明轮子
 ## 3.1、CPU
 * 获取cpu信息：[CpuId.h](https://github.com/facebook/folly/blob/main/folly/CpuId.h)
 * 
+
 
 # 4、数据结构
 ## 4.1、指针相关
@@ -44,3 +48,6 @@ C++轮子速查手册，无需重复发明轮子
 ## 4.3、期望值
 * 表示期望的值或错误，支持then：[Expected.h](https://github.com/facebook/folly/blob/main/folly/Expected.h)
 
+
+# 5、字符串
+* 分成了小（无alloc）中(alloc)大(ref cnt)三种尺寸：[FBString.h](https://github.com/facebook/folly/blob/main/folly/FBString.h)

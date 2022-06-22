@@ -41,3 +41,6 @@ C++轮子速查手册，无需重复发明轮子
 ## 4.2、动态类型
 * 运行时动态类型，可存放int、string、vector等：[dynamic.h](https://github.com/facebook/folly/blob/main/folly/dynamic.h)
 
+## 4.3、期望值
+* 表示期望的值或错误，支持then：[Expected.h](https://github.com/facebook/folly/blob/main/folly/Expected.h)
+

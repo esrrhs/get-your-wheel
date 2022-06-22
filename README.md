@@ -32,3 +32,8 @@ C++轮子速查手册，无需重复发明轮子
 ## 3.1、CPU
 * 获取cpu信息：[CpuId.h](https://github.com/facebook/folly/blob/main/folly/CpuId.h)
 * 
+
+# 4、指针相关
+## 4.1、类型管理
+* 可以存放多种类型的指针：[DiscriminatedPtr.h](https://github.com/facebook/folly/blob/main/folly/DiscriminatedPtr.h)
+* 

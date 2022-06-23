@@ -55,10 +55,12 @@ C++轮子速查手册，无需重复发明轮子
 * 表示期望的值或错误，支持then：[Expected.h](https://github.com/facebook/folly/blob/main/folly/Expected.h)
 
 
-# 5、字符串
+# 5、字符串相关
+## 5.1、字符串
 * 分成了小（无alloc）中(alloc)大(ref cnt)三种尺寸：[FBString.h](https://github.com/facebook/folly/blob/main/folly/FBString.h)
 * 模板实现的常量字符串：[FixedString.h](https://github.com/facebook/folly/blob/main/folly/FixedString.h)
-
+## 5.2、格式化
+* 使用{}进行格式化：[Format.h](https://github.com/facebook/folly/blob/main/folly/Format.h)
 
 # 6、文件
 * 对于文件读写的封装：[FileUtil.h](https://github.com/facebook/folly/blob/main/folly/FileUtil.h)

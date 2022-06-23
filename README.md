@@ -55,3 +55,7 @@ C++轮子速查手册，无需重复发明轮子
 
 # 5、字符串
 * 分成了小（无alloc）中(alloc)大(ref cnt)三种尺寸：[FBString.h](https://github.com/facebook/folly/blob/main/folly/FBString.h)
+
+
+# 6、文件
+* 对于文件读写的封装：[FileUtil.h](https://github.com/facebook/folly/blob/main/folly/FileUtil.h)

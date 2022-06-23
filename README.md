@@ -59,3 +59,9 @@ C++轮子速查手册，无需重复发明轮子
 
 # 6、文件
 * 对于文件读写的封装：[FileUtil.h](https://github.com/facebook/folly/blob/main/folly/FileUtil.h)
+
+
+# 7、算法
+## 7.1、加密相关
+* 根据原始信息生成指纹：[Fingerprint.h](https://github.com/facebook/folly/blob/main/folly/Fingerprint.h)
+

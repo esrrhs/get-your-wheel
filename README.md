@@ -33,6 +33,7 @@ C++轮子速查手册，无需重复发明轮子
 # 2、模板元编程
 ## 2.1、数学类
 * 计算max、min、log2、pow等：[ConstexprMath.h](https://github.com/facebook/folly/blob/main/folly/ConstexprMath.h)
+## 2.1、数据结构
 * 模板实现的常量字符串：[FixedString.h](https://github.com/facebook/folly/blob/main/folly/FixedString.h)
 
 
